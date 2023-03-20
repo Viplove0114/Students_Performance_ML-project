@@ -109,7 +109,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-cicd/
+nv/
 
 # Spyder project settings
 .spyderproject
