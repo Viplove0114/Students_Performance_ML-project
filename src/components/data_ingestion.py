@@ -31,7 +31,7 @@ class DataIngestion:
             logging.info("Read the dataset as dataframe")
 
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True)
-            df['total_score'] = df['math_score'] + df['reading_score'] + df['writing_score']
+            # df['total_score'] = df['math_score'] + df['reading_score'] + df['writing_score']
 
             logging.info("Target variable defined")
             df.to_csv(self.ingestion_config.raw_data_path,index=False,header=True)

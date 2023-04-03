@@ -1,0 +1,13 @@
+[ 2023-04-03 17:23:39,459 ] 28 INFO - Enterd the data ingestion process
+[ 2023-04-03 17:23:39,476 ] 31 INFO - Read the dataset as dataframe
+[ 2023-04-03 17:23:39,476 ] 36 INFO - Target variable defined
+[ 2023-04-03 17:23:39,491 ] 39 INFO - Train_Test_Split initiated
+[ 2023-04-03 17:23:39,491 ] 45 INFO - Inmgestion of the data is completed
+[ 2023-04-03 17:23:39,523 ] 71 INFO - Read train and test data completed
+[ 2023-04-03 17:23:39,523 ] 72 INFO - Obtaining preprocessing object
+[ 2023-04-03 17:23:39,523 ] 53 INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[ 2023-04-03 17:23:39,523 ] 54 INFO - Numerical_columns: ['writing_score', 'reading_score']
+[ 2023-04-03 17:23:39,523 ] 90 INFO - Applying preprocessing object on traing and testing dataframe.
+[ 2023-04-03 17:23:39,554 ] 98 INFO - Preprocessing object saved.
+[ 2023-04-03 17:23:39,554 ] 27 INFO - Split training and test input data
+[ 2023-04-03 17:25:35,985 ] 95 INFO - Best found model on both traing and testing dataset

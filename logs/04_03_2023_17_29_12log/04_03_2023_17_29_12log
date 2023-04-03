@@ -1,0 +1,10 @@
+[ 2023-04-03 17:29:14,786 ] 224 WARNING -  * Debugger is active!
+[ 2023-04-03 17:29:14,793 ] 224 INFO -  * Debugger PIN: 119-654-960
+[ 2023-04-03 17:29:36,111 ] 224 INFO - 127.0.0.1 - - [03/Apr/2023 17:29:36] "GET / HTTP/1.1" 200 -
+[ 2023-04-03 17:29:42,393 ] 224 INFO - 127.0.0.1 - - [03/Apr/2023 17:29:42] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-04-03 17:30:01,868 ] 224 INFO - 127.0.0.1 - - [03/Apr/2023 17:30:01] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2023-04-03 17:30:02,757 ] 224 INFO - 127.0.0.1 - - [03/Apr/2023 17:30:02] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-04-03 17:30:02,821 ] 224 INFO - 127.0.0.1 - - [03/Apr/2023 17:30:02] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-04-03 17:30:03,197 ] 224 INFO - 127.0.0.1 - - [03/Apr/2023 17:30:03] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-04-03 17:30:03,604 ] 224 INFO - 127.0.0.1 - - [03/Apr/2023 17:30:03] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-04-03 17:31:21,499 ] 224 INFO -  * Detected change in 'D:\\Desktop\\MLproject\\src\\pipeline\\predict_pipeline.py', reloading
